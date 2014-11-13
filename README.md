@@ -30,6 +30,9 @@ then you can run the generated `target/ROOT.war` by [tomcat][4] or [jetty][5] .
 we also provide a war file at [dropbox][6] ,so you can just download it without compile.
 
 
+> thanks for the [Sql4D][6] project. we use it to generate druid's query api of json format.
+
+
 
   [1]: http://crnsnlzc.qiniudn.com/Snip20141113_2.png
   [2]: http://crnsnlzc.qiniudn.com/Snip20141113_3.png
