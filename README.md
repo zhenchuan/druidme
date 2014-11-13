@@ -27,7 +27,8 @@ grails prod war
 
 then you can run the generated `target/ROOT.war` by [tomcat][4] or [jetty][5] .
 
-we also provide a war file at 
+we also provide a war file at [dropbox][6] ,so you can just download it without compile.
+
 
 
   [1]: http://crnsnlzc.qiniudn.com/Snip20141113_2.png
@@ -35,3 +36,4 @@ we also provide a war file at
   [3]: https://grails.org
   [4]: http://tomcat.apache.org
   [5]: http://www.eclipse.org/jetty/
+  [6]: https://www.dropbox.com/s/ipoezwgf7p3aza2/ROOT.war?dl=0
