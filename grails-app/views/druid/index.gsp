@@ -32,7 +32,7 @@
 <!-- Fixed navbar -->
 <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="head">
     <div class="container">
-        <div class="navbar-header"><a class="navbar-brand" href="${createLink(uri: '/')}" target="_blank">&nbsp;</a></div>
+        <div class="navbar-header"><a class="navbar-brand" href="${createLink(uri: '/')}" target="">&nbsp;</a></div>
         <div class="navbar-collapse collapse" id="nav-wrap">
             <ul class="nav navbar-nav navbar-right" id="nav" style="max-width:100%;"></ul>
         </div><!--/.nav-collapse -->
@@ -82,9 +82,9 @@
                                             Interval :
                                             <ul>
                                                 <li>
-                                                    <input type="text" class="" name="start" value="${params.start}" style="width: 96px" onFocus="WdatePicker({startDate:'%y-%MM-%dd 00:00:00',dateFmt:'yyyy-MM-ddTHH',alwaysUseStartDate:true})">
+                                                    <input type="text" class="" name="start" value="${params.start}" style="width: 96px" onFocus="WdatePicker({startDate:'%y-%MM-%dd 00:00:00',dateFmt:'yyyy-MM-ddTHH:mm',alwaysUseStartDate:true})">
                                                     --
-                                                    <input type="text" class="" name="end" value="${params.end}" style="width: 96px;" onFocus="WdatePicker({startDate:'%y-%MM-%dd 00:00:00',dateFmt:'yyyy-MM-ddTHH',alwaysUseStartDate:true})">
+                                                    <input type="text" class="" name="end" value="${params.end}" style="width: 96px;" onFocus="WdatePicker({startDate:'%y-%MM-%dd 00:00:00',dateFmt:'yyyy-MM-ddTHH:mm',alwaysUseStartDate:true})">
                                                 </li>
                                             </ul>
                                         </li>
@@ -96,6 +96,7 @@
                                                         <select name="granularity" class="" id="granularity">
                                                             <option value='hour'>hour</option>
                                                             <option value='P1D'>day</option>
+                                                            <option value="minute">minute</option>
                                                             <option value='all'>all</option>
                                                         </select>
                                                     </div>
